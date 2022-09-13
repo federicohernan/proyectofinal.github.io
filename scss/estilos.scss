@@ -9,20 +9,19 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    z-index: -1; }
+    z-index: -2; }
   
-  body {
-    position: relative;
-    padding-bottom: 4em; }
+ 
   
   h1 {
     padding: 0.5%;
     text-align: center;
-    color: #d12620;
+    color: #f30a0a7c;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
   
   .menu {
-    padding: 1%; }
+    background-color: rgba(255, 0, 0, 0.315);
+    padding: 2%; }
   
   .contorno-fotoindex {
     margin: 5%;
@@ -33,14 +32,23 @@
     color: aliceblue; 
 background-color: #52110f60;}
   
-  .bi-instagram {
-    color: aliceblue; }
-  
-  .bi-facebook {
-    color: aliceblue; }
-  
-  .bi-whatsapp {
-    color: aliceblue; }
+  .bi-instagram  {
+   margin: 1%;
+    width: 25px;
+    height: 25px;
+    color: aliceblue;}
+    .bi-facebook {
+      margin: 1%;
+      width: 25px;
+      height: 25px;
+      color: aliceblue;
+    }
+    .bi-whatsapp{
+      margin: 1%;
+      width: 25px;
+      height: 25px;
+      color: aliceblue;
+    }
   
   h2 {
     padding: 1%;
@@ -62,8 +70,7 @@ background-color: #52110f60;}
     background-color: rgba(128, 128, 128, 0.527);
     color: white; }
   
-  .textoderechos {
-    text-align: left; }
+   
   
   .logos {
     color: aliceblue; }
@@ -81,7 +88,24 @@ background-color: #52110f60;}
     margin-top: 20px;
     font-family: serif; 
   text-align: center;}
+
+  .padrecontacto{
+    margin: 8%;}
     
-  
- 
+  .mapa {
+    width: 90%;
+    height: 20%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ footer{
+  color: aliceblue;
+  background-color: rgba(255, 2, 2, 0.274);
+  padding: 1rem 0 ;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+ }
 
