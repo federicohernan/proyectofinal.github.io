@@ -4,12 +4,16 @@
 
 .videodefondo {
   position: fixed;
-  min-width: 100%;
+  min-width: 120%;
   min-height: 100%;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   z-index: -2; }
+
+body {
+  position: relative;
+  padding-bottom: 10em; }
 
 h1 {
   padding: 0.5%;
@@ -18,8 +22,7 @@ h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 .menu {
-  background-color: rgba(255, 0, 0, 0.315);
-  padding: 2%; }
+  background-color: rgba(255, 0, 0, 0.315); }
 
 .contorno-fotoindex {
   margin: 5%;
@@ -60,6 +63,17 @@ h2 {
 .texto_carrucel2 {
   color: black; }
 
+.imagen-destacado {
+  width: 100%;
+  height: 80%;
+  padding: 2%; }
+
+.parrafo-destacado2 {
+  background-color: rgba(240, 248, 255, 0.349);
+  margin: 2%;
+  border: 2em;
+  color: aliceblue; }
+
 .imagen-index1 {
   margin: 5%;
   padding: 5%; }
@@ -99,7 +113,8 @@ form {
 footer {
   color: aliceblue;
   background-color: rgba(255, 2, 2, 0.274);
-  padding: 1rem 0;
+  padding: 1em 0;
   text-align: center;
   position: absolute;
-  width: 100%; }
+  width: 100%;
+  bottom: 0%; }
