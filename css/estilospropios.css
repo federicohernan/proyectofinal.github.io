@@ -61,18 +61,20 @@ h2 {
   padding: 10%; }
 
 .texto_carrucel2 {
+  background-color: rgba(240, 248, 255, 0.705);
   color: black; }
 
 .imagen-destacado {
   width: 100%;
-  height: 80%;
-  padding: 2%; }
+  height: 70%;
+  padding: 10%; }
 
 .parrafo-destacado2 {
+  margin: 4%;
   background-color: rgba(240, 248, 255, 0.349);
-  margin: 2%;
-  border: 2em;
-  color: aliceblue; }
+  padding: 8%;
+  color: aliceblue;
+  text-align: center; }
 
 .imagen-index1 {
   margin: 5%;
